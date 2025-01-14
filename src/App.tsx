@@ -53,7 +53,7 @@ function App() {
     }
     setCurrent(String(result)); // แปลงผลลัพธ์เป็นสตริง
     setPrevious(null); // เคลียร์ค่าก่อนหน้า
-    setOperator(null); // เคลียร์ค่าตัวดำเนินการ
+    setOperator(null); // เคลียร์ค่าตัวดำเนินการนะ
   }
 
   return (
