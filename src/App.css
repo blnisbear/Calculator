@@ -1,0 +1,62 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Container {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 100%;
+  
+}
+
+.Header-Text {
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.Display {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 255px; /* กำหนดความกว้างคงที่ */
+  height: 60px; /* กำหนดความสูงคงที่ */
+  padding: 10px; /* ลด padding ให้เหมาะสม */
+  box-sizing: border-box; /* รวม padding ไว้ในขนาด */
+  overflow: hidden; /* ซ่อนข้อความเกิน */
+  text-overflow: ellipsis; /* เพิ่ม ... หากข้อความยาวเกิน */
+  text-align: right; /* จัดข้อความไปทางขวา */
+  white-space: nowrap; /* ป้องกันข้อความขึ้นบรรทัดใหม่ */
+}
+
+.btn-cal {
+  display: grid;
+  grid-template-columns: repeat(4, 60px); /* 4 คอลัมน์, กว้าง 60px */
+  grid-gap: 5px; /* ช่องว่างระหว่างปุ่ม */
+  margin-top: 5px;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
